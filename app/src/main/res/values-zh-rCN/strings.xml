@@ -43,12 +43,12 @@
     <string name="info_send_xmrto_zeroconf"><![CDATA[
 <i>至多<b>%1$s BTC</b>将会<u>即刻</u>发送!</i>
 ]]></string>
-    <string name="send_available_btc">余额: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">余额: %2$s BTC (%1$s SUMO)</string>
     <string name="info_paymentid_integrated">&#x2714; 支付ID已集成</string>
     <string name="info_prepare_tx">正在为您的交易做准备工作</string>
     <string name="label_send_progress_xmrto_create">创建XMR.TO订单</string>
     <string name="label_send_progress_xmrto_query">XMR.TO订单查询中</string>
-    <string name="label_send_progress_create_tx">Monero交易准备中</string>
+    <string name="label_send_progress_create_tx">Sumokoin交易准备中</string>
     <string name="label_send_progress_queryparms">XMR.TO参数查询中</string>
     <string name="label_generic_xmrto_error">XMR.TO错误</string>
     <string name="text_generic_xmrto_error">代码: %1$d</string>
@@ -106,8 +106,8 @@
     <string name="label_watchonly">(只读)</string>
     <string name="label_wallet_receive">收款</string>
     <string name="label_wallet_send">发送</string>
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR未确认</string>
-    <string name="service_description">monerujo服务</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SUMO未确认</string>
+    <string name="service_description">Sumokoin Android Wallet服务</string>
     <string name="status_synced">已同步：</string>
     <string name="status_remaining">区块剩余</string>
     <string name="status_syncing">扫描中：</string>
@@ -122,7 +122,7 @@
     <string name="message_copy_address">钱包地址已复制到剪贴板！</string>
     <string name="message_copy_txid">交易ID已复制到剪贴板！</string>
     <string name="message_nocopy">因安全原因，复制功能已被禁用！</string>
-    <string name="message_exchange_failed">无法获取汇率！\n使用XMR/XMR或重新尝试</string>
+    <string name="message_exchange_failed">无法获取汇率！\n使用SUMO/SUMO或重新尝试</string>
     <string name="generate_title">创建新钱包</string>
     <string name="generate_name_hint">钱包名</string>
     <string name="generate_password_hint">钱包密码</string>
@@ -130,9 +130,9 @@
     <string name="generate_fingerprint_warn"><![CDATA[
 <strong>指纹授权</strong>
 <p>启用指纹授权后，无需输入密码，也可查看钱包余额和收款。</p>
-<p>出于安全性的考量，若要查看钱包明细和汇款，monerujo还是会要求您输入密码。</p>
+<p>出于安全性的考量，若要查看钱包明细和汇款，Sumokoin Android Wallet还是会要求您输入密码。</p>
 <strong>安全警告</strong>
-<p>最后monerujo提醒您，任何取得您指纹的人，都能够进入您的账户。</p>
+<p>最后Sumokoin Android Wallet提醒您，任何取得您指纹的人，都能够进入您的账户。</p>
 <p>比如，他人可能趁您熟睡时，使用您的指纹登录您的账户。</p>
 <strong>您确定要开启此功能？</strong>
 ]]></string>
@@ -145,7 +145,7 @@
     <string name="generate_wallet_dot">无法启动</string>
     <string name="generate_wallet_creating">钱包创建中</string>
     <string name="generate_wallet_created">钱包已创建</string>
-    <string name="generate_restoreheight_error">输入区块链高度或日期 (YYYY-MM-DD)</string>
+    <string name="generate_restoreheight_error">输入区块链高度或日期 (YYYY-MM)</string>
     <string name="generate_wallet_type_key">密钥</string>
     <string name="generate_wallet_type_new">新</string>
     <string name="generate_wallet_type_seed">种子密语</string>
@@ -153,8 +153,8 @@
     <string name="generate_address_hint">公开地址</string>
     <string name="generate_viewkey_hint">查阅密钥</string>
     <string name="generate_spendkey_hint">支付密钥</string>
-    <string name="generate_mnemonic_hint">25词助记种子密语</string>
-    <string name="generate_restoreheight_hint">恢复区块高度或日期 (YYYY-MM-DD)</string>
+    <string name="generate_mnemonic_hint">26词助记种子密语</string>
+    <string name="generate_restoreheight_hint">恢复区块高度或日期 (YYYY-MM)</string>
     <string name="generate_address_label">公开地址</string>
     <string name="generate_viewkey_label">查阅密钥</string>
     <string name="generate_spendkey_label">支付密钥</string>
@@ -162,14 +162,14 @@
     <string name="generate_crazypass_label">钱包文件恢复密码</string>
     <string name="generate_check_key">输入有效密钥</string>
     <string name="generate_check_address">输入有效地址</string>
-    <string name="generate_check_mnemonic">请输入您的25词助记种子密语</string>
+    <string name="generate_check_mnemonic">请输入您的26词助记种子密语</string>
     <string name="send_amount_btc_xmr">%1$s (参考)</string>
     <string name="send_paymentid_hint">支付ID (选填)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">私密备注 (选填)</string>
     <string name="send_generate_paymentid_hint">生成</string>
-    <string name="send_send_label">发送门罗币</string>
-    <string name="send_send_timed_label">发送门罗币 (%1$s)</string>
+    <string name="send_send_label">发送SUMO币</string>
+    <string name="send_send_timed_label">发送SUMO币 (%1$s)</string>
     <string name="send_qr_invalid">非QR码</string>
     <string name="send_qr_address_invalid">该支付QR码无效</string>
     <string name="send_address_invalid">该地址无效</string>
@@ -178,17 +178,17 @@
     <string name="send_address_resolve_openalias">解析OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias无DNSSEC - 这可能是个假地址</string>
     <string name="send_title">发送</string>
-    <string name="send_available">余额: %1$s XMR</string>
+    <string name="send_available">余额: %1$s SUMO</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金额</string>
     <string name="send_confirm_title">确认</string>
     <string name="send_success_title">完成</string>
     <string name="send_amount_label">金额</string>
-    <string name="send_fee_btc_label">手续费 (XMR)</string>
+    <string name="send_fee_btc_label">手续费 (SUMO)</string>
     <string name="send_fee_label">手续费</string>
-    <string name="send_total_btc_label">合计 (XMR)</string>
+    <string name="send_total_btc_label">合计 (SUMO)</string>
     <string name="send_total_label">合计</string>
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s SUMO</string>
     <string name="send_fee">+%1$s 手续费</string>
     <string name="send_create_tx_error_title">创建交易发生错误</string>
     <string name="tx_list_fee">- 手续费 %1$s</string>
@@ -306,5 +306,5 @@
 
     <string name="label_restoreheight">Restore Height</string>
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start Sumokoin App on %1$s</string>
 </resources>
