@@ -35,7 +35,7 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Вы ввели Bitcoin адрес.</b><br/>
-        <i>Отправляйте XMR, получатель получит BTC, используя сервис XMR.TO</i>
+        <i>Отправляйте SUMO, получатель получит BTC, используя сервис XMR.TO</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">Заказ XMR.TO</string>
@@ -57,14 +57,14 @@
         <i>Сумма до <b>%1$s BTC</b> будет отправлена <u>немедленно</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Баланс: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Баланс: %2$s BTC (%1$s SUMO)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Интегрированный ID платежа</string>
     <string name="info_prepare_tx">Подготовка транзакции</string>
 
     <string name="label_send_progress_xmrto_create">Создание заказа XMR.TO</string>
     <string name="label_send_progress_xmrto_query">Запрос заказа XMR.TO</string>
-    <string name="label_send_progress_create_tx">Подготовка транзакции Monero</string>
+    <string name="label_send_progress_create_tx">Подготовка транзакции Sumokoin</string>
 
     <string name="label_send_progress_queryparms">Запрос параметров XMR.TO</string>
 
@@ -75,8 +75,8 @@
     <string name="text_noretry_monero">Теперь мы застряли здесь!</string>
     <string name="text_noretry">Ой-ой! Кажется XMR.TO недоступен в данный момент!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Курс: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s SUMO</string>
+    <string name="text_send_btc_rate">(Курс: %1$s BTC/SUMO)</string>
 
     <string name="label_send_btc_xmrto_info">Посетите xmr.to для получения помощи &amp;</string>
     <string name="label_send_btc_xmrto_key_lb">Секретный ключ\nXMR.TO</string>
@@ -139,9 +139,9 @@
     <string name="label_wallet_receive">Получить</string>
     <string name="label_wallet_send">Передать</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR неподтвержденно</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s SUMO неподтвержденно</string>
 
-    <string name="service_description">Служба monerujo</string>
+    <string name="service_description">Служба Sumokoin Android Wallet</string>
 
     <string name="status_synced">Синхронизировано:</string>
     <string name="status_remaining">Блоков осталось</string>
@@ -160,7 +160,7 @@
     <string name="message_copy_txid">ID транзакции копирован в буфер обмена!</string>
     <string name="message_nocopy">Копирование недоступно по соображениям безопасности!</string>
 
-    <string name="message_exchange_failed">Не удается получить курс обмена!\nИспользуйте XMR/XMR или повторите попытку</string>
+    <string name="message_exchange_failed">Не удается получить курс обмена!\nИспользуйте SUMO/SUMO или повторите попытку</string>
 
     <string name="generate_title">Создать кошелек</string>
     <string name="generate_name_hint">Имя кошелька</string>
@@ -170,10 +170,10 @@
         <strong>Аутентификация по отпечаткам пальцев</strong>
         <p>С поддержкой аутентификации по отпечаткам пальцев, вы можете просматривать баланс и получать средства
         без ввода пароля.</p>
-        <p>Но для дополнительной безопасности, monerujo потребует от вас ввести пароль при
+        <p>Но для дополнительной безопасности, Sumokoin Android Wallet потребует от вас ввести пароль при
         просмотре деталей кошелька или отправке средств.</p>
         <strong>Предупреждение системы безопасности</strong>
-        <p>monerujo хочет напомнить вам, что любой, кто может получить ваш отпечаток пальца, будет
+        <p>Sumokoin Android Wallet хочет напомнить вам, что любой, кто может получить ваш отпечаток пальца, будет
         обладать возможностью, заглянуть в баланс вашего кошелька.</p>
         <p>Например, злоумышленник может заглянуть в ваш кошелек, когда вы спите.</p>
         <strong>Вы уверены, что хотите включить эту функцию?</strong>
@@ -189,7 +189,7 @@
     <string name="generate_wallet_creating">Создание кошелька</string>
     <string name="generate_wallet_created">Кошелек создан</string>
 
-    <string name="generate_restoreheight_error">Введите номер блока или дату (YYYY-MM-DD)</string>
+    <string name="generate_restoreheight_error">Введите номер блока или дату (YYYY-MM)</string>
 
     <string name="generate_wallet_type_key">Ключ</string>
     <string name="generate_wallet_type_new">Новый</string>
@@ -199,14 +199,14 @@
     <string name="generate_address_hint">Публичный адрес</string>
     <string name="generate_viewkey_hint">Ключ просмотра</string>
     <string name="generate_spendkey_hint">Ключ траты</string>
-    <string name="generate_mnemonic_hint">Мнемоническая фраза (25 слов)</string>
-    <string name="generate_restoreheight_hint">Восстановить высоту или дату (YYYY-MM-DD)</string>
+    <string name="generate_mnemonic_hint">Мнемоническая фраза (26 слов)</string>
+    <string name="generate_restoreheight_hint">Восстановить высоту или дату (YYYY-MM)</string>
 
     <string name="generate_address_label">Публичный адрес</string>
     <string name="generate_viewkey_label">Ключ просмотра</string>
     <string name="generate_spendkey_label">Ключ траты</string>
     <string name="generate_mnemonic_label">Мнемоническая фраза</string>
-    <string name="generate_crazypass_label">Дата высоты восстановления (YYYY-MM-DD)</string>
+    <string name="generate_crazypass_label">Дата высоты восстановления (YYYY-MM)</string>
 
     <string name="generate_check_key">Введите действующий ключ</string>
     <string name="generate_check_address">Введите действующий адрес</string>
@@ -218,25 +218,25 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Персональная заметка (необязательно)</string>
     <string name="send_generate_paymentid_hint">Генерация</string>
-    <string name="send_send_label">Потратьте мои сладкие Moneroj</string>
-    <string name="send_send_timed_label">Потратьте мои сладкие Moneroj (%1$s)</string>
+    <string name="send_send_label">Потратьте мои сладкие SUMO</string>
+    <string name="send_send_timed_label">Потратьте мои сладкие SUMO (%1$s)</string>
     <string name="send_qr_invalid">Это не QR-код</string>
     <string name="send_qr_address_invalid">Недопустимый платеж по QR-коду</string>
     <string name="send_address_invalid">Недопустимый адрес</string>
     <string name="send_title">Отправка</string>
-    <string name="send_available">Баланс: %1$s XMR</string>
+    <string name="send_available">Баланс: %1$s SUMO</string>
     <string name="send_address_title">Адрес</string>
     <string name="send_amount_title">Сумма</string>
     <string name="send_confirm_title">Подтверждение</string>
     <string name="send_success_title">Готово</string>
 
     <string name="send_amount_label">Сумма</string>
-    <string name="send_fee_btc_label">Комиссия (XMR)</string>
+    <string name="send_fee_btc_label">Комиссия (SUMO)</string>
     <string name="send_fee_label">Комиссия</string>
-    <string name="send_total_btc_label">Всего (XMR)</string>
+    <string name="send_total_btc_label">Всего (SUMO)</string>
     <string name="send_total_label">Всего</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s SUMO</string>
     <string name="send_fee">+%1$s Комиссия</string>
 
     <string name="send_create_tx_error_title">Ошибка создания транзакции</string>
@@ -274,7 +274,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">Не числовое значение XMR</string>
+    <string name="receive_amount_nan">Не числовое значение SUMO</string>
 
     <string name="details_alert_message">Сейчас будут показаны конфиденциальные данные. Оглянись вокруг!</string>
     <string name="details_alert_yes">Я в безопасности</string>
@@ -388,5 +388,5 @@
 
     <string name="label_restoreheight">Восстановить высоту</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start Sumokoin App on %1$s</string>
 </resources>

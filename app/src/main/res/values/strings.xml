@@ -36,7 +36,7 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>You entered a Bitcoin address.</b><br/>
-        <i>You&apos;ll send XMR and the receiver will get BTC using the <b>XMR.TO</b> service.</i>
+        <i>You&apos;ll send SUMO and the receiver will get BTC using the <b>XMR.TO</b> service.</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">XMR.TO Order</string>
@@ -57,7 +57,7 @@
         <i>Amounts up to <b>%1$s BTC</b> will be sent <u>instantly</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Balance: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Balance: %2$s BTC (%1$s SUMO)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Payment ID integrated</string>
     <string name="info_prepare_tx">Preparing your transaction</string>
@@ -75,8 +75,8 @@
     <string name="text_noretry_monero">Now we\'re stuck here!</string>
     <string name="text_noretry">Uh-oh, XMR.TO does not seem be available right now!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s SUMO</string>
+    <string name="text_send_btc_rate">(Rate: %1$s BTC/SUMO)</string>
 
     <string name="label_send_btc_xmrto_info">Visit xmr.to for support &amp; tracking</string>
     <string name="label_send_btc_xmrto_key_lb">Secret Key\nXMR.TO</string>
@@ -141,7 +141,7 @@
     <string name="label_watchonly">(Watch Only)</string>
 
     <string name="label_wallet_receive">Receive</string>
-    <string name="label_wallet_send">Give</string>
+    <string name="label_wallet_send">Send</string>
 
     <string name="xmr_unconfirmed_amount">+ %1$s SUMO unconfirmed</string>
 
@@ -234,7 +234,7 @@
     <string name="send_address_resolve_openalias">Resolving OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias without DNSSEC - address may be spoofed</string>
     <string name="send_title">Send</string>
-    <string name="send_available">Balance: %1$s XMR</string>
+    <string name="send_available">Balance: %1$s SUMO</string>
     <string name="send_address_title">Address</string>
     <string name="send_amount_title">Amount</string>
     <string name="send_confirm_title">Confirm</string>
@@ -305,7 +305,7 @@
     <string name="fab_restore_key">Restore wallet from private keys</string>
     <string name="fab_restore_seed">Restore wallet 26 word seed</string>
 
-    <string name="accounts_balance" translatable="false">%1$s XMR</string>
+    <string name="accounts_balance" translatable="false">%1$s SUMO</string>
     <string name="tx_account_formatted" translatable="false">(%1$d, %2$d)</string>
 
     <string name="accounts_drawer_new">Create Account</string>
