@@ -326,7 +326,7 @@
 
     <string name="menu_streetmode">Modo Público</string>
 
-    <string name="info_nodes_enabled">Nodo-o-matiC habilitado, toque para más información.</string>
+    <string name="info_nodes_enabled">Nodo-o-matiC habilitado, toque para más información.\nRefresca la lista de nodos al deslizar hacia abajo.</string>
     <string name="node_height">Último bloque actualizado: %1$s</string>
     <string name="label_nodes">Nodos</string>
     <string name="node_name_hint">Nombre del Nodo (Opcional)</string>

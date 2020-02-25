@@ -340,7 +340,7 @@
     <string name="menu_info">Montrer les secrets !</string><!--Changed to: Show Secrets!-->
     <string name="menu_streetmode">Mode Urbain</string>
 
-    <string name="info_nodes_enabled">Nœud-tomatiC activé, tapez pour plus d\'infos.</string>
+    <string name="info_nodes_enabled">Nœud-tomatiC activé, tapez pour plus d\'infos.\nRafraichit la liste de nœuds en faisant glisser vers le bas.</string>
     <string name="node_height">Dernier bloc mis à jour : %1$s</string>
     <string name="label_nodes">Nœuds</string>
     <string name="node_name_hint">Nom du Nœud (Optionnel)</string>
