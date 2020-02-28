@@ -338,7 +338,7 @@
     <string name="menu_info">Информация</string><!--Changed to: Show Secrets!-->
     <string name="menu_streetmode">Уличный режим</string>
 
-    <string name="info_nodes_enabled">Node-o-matiC включен, нажмите для получения дополнительной информации.</string>
+    <string name="info_nodes_enabled">Node-o-matiC включен, нажмите для получения дополнительной информации.\nОбновите ваш список узлов, потянув вниз в разделе.</string>
     <string name="node_height">Последний блок: %1$s</string>
     <string name="label_nodes">Узлы</string>
     <string name="node_name_hint">Имя узла (необязательно)</string>

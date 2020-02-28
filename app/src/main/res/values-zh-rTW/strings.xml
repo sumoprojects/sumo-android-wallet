@@ -336,7 +336,7 @@
     <string name="menu_info">顯示私鑰資訊</string>
     <string name="menu_streetmode">低調模式</string>
 
-    <string name="info_nodes_enabled">節點管理工具已啟用，點選了解更多。</string>
+    <string name="info_nodes_enabled">節點管理工具已啟用，點選了解更多。\n下拉節點列表即可重新整理節點狀態。</string>
     <string name="node_height">最後區塊更新時間：%1$s</string>
     <string name="label_nodes">節點</string>
     <string name="node_name_hint">節點名稱 (選填)</string>

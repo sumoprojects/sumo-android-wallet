@@ -352,7 +352,7 @@
 
     <string name="node_wrong_net" translatable="false">Node scanning only for mainnet!</string>
 
-    <string name="info_nodes_enabled">Node-o-matiC enabled, tap for more info.</string>
+    <string name="info_nodes_enabled">Node-o-matiC enabled, tap for more info.\nPull down to refresh node list</string>
     <string name="node_height">Last block updated: %1$s</string>
     <string name="label_nodes">Nodes</string>
     <string name="node_name_hint">Node Name (Optional)</string>
