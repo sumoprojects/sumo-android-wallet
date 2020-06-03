@@ -19,7 +19,6 @@
     <string name="password_strong">Strong Password &#8230;</string>
     <string name="password_very_strong">Very Strong Password!</string>
 
-    <string name="label_login_wallets">Wallets</string>
     <string name="label_credits">Credits</string>
     <string name="label_ok">OK</string>
     <string name="label_cancel">Cancel</string>
@@ -103,7 +102,7 @@
     <string name="changepw_failed">Change Password failed!</string>
     <string name="changepw_success">Password changed</string>
 
-    <string name="label_daemon">Node</string>
+    <string name="label_daemon" translatable="false">Currently using node:</string>
     <string name="connect_stagenet" translatable="false">Stagenet</string>
     <string name="connect_testnet" translatable="false">Testnet</string>
     <string name="status_wallet_loading">Loading Wallet &#8230;</string>
@@ -404,4 +403,5 @@
     <string name="label_restoreheight">Restore Height</string>
 
     <string name="toast_ledger_start_app">Start Sumokoin App on %1$s</string>
+    <string name="wallets_list" translatable="false">Your Wallets</string>
 </resources>

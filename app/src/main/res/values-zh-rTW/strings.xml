@@ -18,7 +18,6 @@
     <string name="password_strong">快了快了 &#8230;</string>
     <string name="password_very_strong">厲害，h4x0r 風格！</string>
 
-    <string name="label_login_wallets">錢包</string>
     <string name="label_credits">致謝</string>
     <string name="label_ok">好的</string>
     <string name="label_cancel">取消</string>
@@ -103,7 +102,6 @@
     <string name="changepw_failed">密碼更改失敗！</string>
     <string name="changepw_success">密碼更改成功</string>
 
-    <string name="label_daemon">節點</string>
     <string name="status_wallet_loading">載入錢包中 &#8230;</string>
     <string name="status_wallet_unloaded">錢包已儲存</string>
     <string name="status_wallet_unload_failed">儲存錢包失敗！</string>

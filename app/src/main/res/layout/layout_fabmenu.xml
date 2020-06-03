@@ -8,7 +8,7 @@
         android:id="@+id/fabScreen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#eeffffff"
+        android:background="#00FFFFFF"
         android:visibility="invisible">
 
         <RelativeLayout
@@ -16,8 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginBottom="256dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="256dp">
 
             <TextView
                 android:id="@+id/fabNewT"
@@ -26,7 +26,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="8dp"
-                android:text="@string/fab_create_new" />
+                android:text="@string/fab_create_new"
+                android:textColor="@color/white" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/fabNew"
@@ -48,8 +49,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginBottom="200dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="200dp">
 
             <TextView
                 android:id="@+id/fabViewT"
@@ -58,7 +59,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="8dp"
-                android:text="@string/fab_restore_viewonly" />
+                android:text="@string/fab_restore_viewonly"
+                android:textColor="@color/white" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/fabView"
@@ -80,8 +82,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginBottom="144dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="144dp">
 
             <TextView
                 android:id="@+id/fabKeyT"
@@ -90,7 +92,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="8dp"
-                android:text="@string/fab_restore_key" />
+                android:text="@string/fab_restore_key"
+                android:textColor="@color/white" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/fabKey"
@@ -112,8 +115,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginBottom="88dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="88dp">
 
             <TextView
                 android:id="@+id/fabSeedT"
@@ -122,7 +125,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="8dp"
-                android:text="@string/fab_restore_seed" />
+                android:text="@string/fab_restore_seed"
+                android:textColor="@color/white" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/fabSeed"
@@ -144,8 +148,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginBottom="88dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginBottom="88dp"
             android:visibility="gone">
 
             <TextView

@@ -21,10 +21,12 @@
             style="@style/MoneroLabel.Heading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="0dp"
+            android:drawableStart="@drawable/ic_navigate_next_white_24dp"
             android:gravity="start|center"
             android:padding="8dp"
-            android:text="@string/label_daemon" />
+            android:text="Currently using Node"
+            android:textColor="@color/white" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -58,8 +60,10 @@
                         style="@style/MoneroText.PosAmount"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_refresh_black_24dp"
+                        android:drawableStart="@drawable/ic_navigate_prev_white_24dp"
                         android:drawablePadding="8dp"
+                        android:foregroundTint="#FFFFFF"
+                        android:textColor="#FFFFFF"
                         tools:text="monero-v9.monerujo.io" />
 
                     <TextView
@@ -68,6 +72,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="32dp"
+                        android:textColor="#FFFFFF"
                         tools:text="128.130.233.151:18089" />
                 </LinearLayout>
             </FrameLayout>
@@ -81,7 +86,8 @@
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:gravity="center"
                 android:padding="12dp"
-                android:src="@drawable/ic_search_orange_24dp" />
+                android:src="@drawable/ic_search_orange_24dp"
+                android:tint="#FFFFFF" />
         </RelativeLayout>
 
         <EditText
@@ -93,13 +99,15 @@
             style="@style/MoneroLabel.Heading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="0dp"
+            android:drawableStart="@drawable/ic_navigate_next_white_24dp"
             android:gravity="start|center"
             android:padding="8dp"
-            android:text="@string/label_login_wallets" />
+            android:text="@string/wallets_list"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white" />
 
-        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -120,8 +128,9 @@
                 app:layoutManager="android.support.v7.widget.LinearLayoutManager"
                 tools:listitem="@layout/item_wallet" />
 
+            <include layout="@layout/layout_fabmenu" />
+
         </FrameLayout>
     </LinearLayout>
 
-    <include layout="@layout/layout_fabmenu" />
 </FrameLayout>

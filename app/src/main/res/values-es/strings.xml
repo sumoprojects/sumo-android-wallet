@@ -18,7 +18,6 @@
     <string name="password_strong">Casi &#8230;</string>
     <string name="password_very_strong">¡Bien ahí, hacker nivel 4!</string>
 
-    <string name="label_login_wallets">Monederos</string>
     <string name="label_credits">Créditos</string>
     <string name="label_ok">Aceptar</string>
     <string name="label_cancel">Cancelar</string>
@@ -54,7 +53,6 @@
     <string name="changepw_failed">¡Cambio de contraseña fallido!</string>
     <string name="changepw_success">Contraseña cambiada</string>
 
-    <string name="label_daemon">Nodo</string>
     <string name="status_wallet_loading">Cargando monedero&#8230;</string>
     <string name="status_wallet_unloaded">Monedero guardada</string>
     <string name="status_wallet_unload_failed">¡Guardado de monedero fallido!</string>

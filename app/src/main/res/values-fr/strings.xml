@@ -18,7 +18,6 @@
     <string name="password_strong">On y arrive &#8230;</string>
     <string name="password_very_strong">Mot de passe très fort !</string>
 
-    <string name="label_login_wallets">Portefeuilles</string>
     <string name="label_credits">Crédits</string>
     <string name="label_ok">OK</string>
     <string name="label_cancel">Annuler</string>
@@ -103,7 +102,6 @@
     <string name="changepw_failed">Modification du mot de passe Échouée !</string>
     <string name="changepw_success">Modification du mot de passe réussie</string>
 
-    <string name="label_daemon">Nœud</string>
     <string name="status_wallet_loading">Chargement du Portefeuille &#8230;</string>
     <string name="status_wallet_unloaded">Portefeuille Sauvegardé</string>
     <string name="status_wallet_unload_failed">Sauvegarde du Portefeuille Échouée !</string>

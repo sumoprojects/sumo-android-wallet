@@ -29,7 +29,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/generate_address_label" />
+                android:text="@string/generate_address_label"
+                android:textColor="@color/moneroWhite" />
 
             <ImageButton
                 android:id="@+id/bCopyAddress"
@@ -39,8 +40,10 @@
                 android:layout_marginEnd="80dp"
                 android:background="?android:selectableItemBackground"
                 android:clickable="false"
-                android:src="@drawable/ic_content_nocopy_black_24dp" />
+                android:src="@drawable/ic_content_nocopy_black_24dp"
+                android:tint="@color/moneroWhite" />
         </FrameLayout>
+
 
         <TextView
             android:id="@+id/tvWalletAddress"
@@ -49,13 +52,29 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/data_top"
             android:textAlignment="center"
+            android:textColor="@color/moneroWhite"
             tools:text="49RBjxQ2zgf7t17w7So9ngcEY9obKzsrr6Dsah24MNSMiMBEeiYPP5CCTBq4GpZcEYN5Zf3upsLiwd5PezePE1i4Tf3rryY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <TextView
+            style="@style/MoneroLabel.Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Mnemonic Seed"
+            android:textColor="@color/moneroWhite" />
 
         <LinearLayout
             android:id="@+id/llMnemonic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/header_top"
+            android:layout_marginTop="-5dp"
             android:orientation="vertical"
             android:visibility="gone">
 
@@ -81,7 +100,7 @@
             android:id="@+id/llHeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/data_top"
+            android:layout_marginTop="15dp"
             android:orientation="vertical"
             android:visibility="visible">
 
@@ -90,7 +109,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/label_restoreheight" />
+                android:text="@string/label_restoreheight"
+                android:textColor="@color/moneroWhite" />
 
             <TextView
                 android:id="@+id/tvWalletHeight"
@@ -123,8 +143,10 @@
                 style="@style/MoneroText.Monospace"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/data_top"
+                android:layout_marginTop="1dp"
                 android:textAlignment="center"
+                android:textColor="@color/tx_red"
+                android:visibility="invisible"
                 tools:text="2ExEN7droBLzWW2CEE2d7kv7E/iCZwNn:hKwUmg3:hg" />
         </LinearLayout>
 
@@ -133,7 +155,7 @@
             style="@style/MoneroButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/section_top"
+            android:layout_marginTop="-10dp"
             android:text="@string/generate_button_accept"
             android:visibility="gone" />
 
