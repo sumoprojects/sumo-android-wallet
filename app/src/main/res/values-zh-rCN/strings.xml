@@ -14,7 +14,6 @@
     <string name="password_good">还可以做得更好哦!</string>
     <string name="password_strong">不错哦~ &#8230;</string>
     <string name="password_very_strong">超赞！</string>
-    <string name="label_login_wallets">钱包</string>
     <string name="label_credits">感谢</string>
     <string name="label_ok">确认</string>
     <string name="label_cancel">取消</string>
@@ -77,7 +76,6 @@
     <string name="rename_failed">重命名失败！</string>
     <string name="changepw_failed">密码修改失败！</string>
     <string name="changepw_success">密码已修改</string>
-    <string name="label_daemon">节点</string>
     <string name="status_wallet_loading">钱包加载中 &#8230;</string>
     <string name="status_wallet_unloaded">钱包已保存</string>
     <string name="status_wallet_unload_failed">钱包保存失败！</string>

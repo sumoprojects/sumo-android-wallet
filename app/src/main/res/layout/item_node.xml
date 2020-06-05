@@ -15,10 +15,11 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:padding="12dp"
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:gravity="center"
-        android:src="@drawable/ic_bookmark_border_24dp" />
+        android:padding="12dp"
+        android:src="@drawable/ic_bookmark_border_24dp"
+        android:tint="#FFFFFF" />
 
     <LinearLayout
         android:id="@+id/llNode"
@@ -37,6 +38,7 @@
             style="@style/MoneroText.PosAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             tools:text="monero-v9.monerujo.io" />
 
         <TextView
@@ -44,6 +46,7 @@
             style="@style/MoneroText.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             tools:text="128.130.233.151:18089" />
     </LinearLayout>
 
@@ -54,5 +57,6 @@
         android:layout_alignParentEnd="true"
         android:layout_centerInParent="true"
         android:layout_marginEnd="8dp"
-        android:src="@drawable/ic_signal_wifi_4_bar_black_24dp" />
+        android:src="@drawable/ic_signal_wifi_4_bar_black_24dp"
+        android:tint="#FFFFFF" />
 </RelativeLayout>

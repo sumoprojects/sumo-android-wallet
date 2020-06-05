@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.m2049r.xmrwallet.widget.SendProgressView
+        <com.m2049r.sumowallet.widget.SendProgressView
             android:id="@+id/evXmrToParms"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         </LinearLayout>
     </FrameLayout>
 
-    <com.m2049r.xmrwallet.widget.ExchangeOtherEditText
+    <com.m2049r.sumowallet.widget.ExchangeOtherEditText
         android:id="@+id/etAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

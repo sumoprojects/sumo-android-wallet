@@ -15,14 +15,19 @@
 
     <TextView
         android:id="@+id/tvPull"
-        android:layout_below="@+id/llNotice"
         style="@style/MoneroLabel.Heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_below="@+id/llNotice"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="8dp"
+        android:drawableStart="@drawable/ic_navigate_next_white_24dp"
         android:gravity="center"
-        android:text="@string/node_pull_hint" />
+        android:text="@string/node_pull_hint"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white" />
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/pullToRefresh"
@@ -57,16 +62,43 @@
         android:elevation="6dp">
 
         <android.support.design.button.MaterialButton
-            android:id="@+id/fab"
+        android:id="@+id/fab"
+        style="@style/ExtendedFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:backgroundTintMode="src_in"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/node_fab_add"
+        app:cornerRadius="56dp"
+        app:icon="@drawable/ic_add_white_24dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/gradient_street_efab"
+        android:elevation="6dp">
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/fab2"
             style="@style/ExtendedFAB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:backgroundTint="@android:color/transparent"
             android:backgroundTintMode="src_in"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:text="@string/node_fab_add"
+            android:text="Scan"
             app:cornerRadius="56dp"
-            app:icon="@drawable/ic_add_white_24dp" />
+            app:icon="@drawable/ic_refresh_black_24dp" />
+
     </FrameLayout>
 </RelativeLayout>

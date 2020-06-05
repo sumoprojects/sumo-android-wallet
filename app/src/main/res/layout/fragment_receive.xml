@@ -36,7 +36,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/generate_address_label" />
+                android:text="@string/generate_address_label"
+                android:textColor="@color/moneroWhite" />
 
             <ImageButton
                 android:id="@+id/bCopyAddress"
@@ -45,7 +46,8 @@
                 android:layout_marginStart="8dp"
                 android:background="?android:selectableItemBackground"
                 android:clickable="false"
-                android:src="@drawable/ic_content_nocopy_black_24dp" />
+                android:src="@drawable/ic_content_nocopy_black_24dp"
+                android:tint="@color/moneroWhite" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,6 +65,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="10"
                 android:textAlignment="center"
+                android:textColor="@color/moneroWhite"
                 tools:text="9wZnnNctRc7RaLya1rxykH21dUwfQpNGmVLjAvkvqe7nKT2Mw848AJNGMunW5xjoSZ5vCCU3uDnUoVqSSHxzRtQBE3f6crx" />
 
             <Button
@@ -81,12 +84,13 @@
 
         </LinearLayout>
 
-        <com.m2049r.xmrwallet.widget.ExchangeView
+        <com.m2049r.sumowallet.widget.ExchangeView
             android:id="@+id/evAmount"
             android:layout_width="match_parent"
-            android:layout_height="88dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:visibility="invisible"
             android:orientation="vertical" />
 
         <android.support.design.widget.TextInputLayout
@@ -99,7 +103,8 @@
                 style="@style/MoneroEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/receive_desc_hint"
+                android:visibility="invisible"
+                android:hint=""
                 android:imeOptions="actionDone"
                 android:inputType="textMultiLine"
                 android:textAlignment="textStart" />
@@ -109,13 +114,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
             <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_above="@id/tvNfc"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="16dp"
+                android:layout_margin="15dp"
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -154,6 +160,7 @@
                 android:drawablePadding="8dp"
                 android:gravity="center"
                 android:text="@string/nfc_tag_tap"
+                android:textColor="@color/moneroWhite"
                 android:visibility="visible" />
         </RelativeLayout>
     </LinearLayout>

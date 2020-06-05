@@ -4,11 +4,11 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.m2049r.xmrwallet"
+        applicationId "com.m2049r.sumowallet"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 201
-        versionName "1.0.0 'TheGreatWall'"
+        versionCode 10003
+        versionName "Eureka"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
