@@ -35,7 +35,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="@string/label_send_success" />
+                    android:text="@string/label_send_success"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxAmount"
@@ -44,6 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF"
                     tools:text="143.008000 XMR" />
 
                 <TextView
@@ -69,7 +71,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_send_txid"
-                android:textAlignment="textStart" />
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF" />
 
             <ImageButton
                 android:id="@+id/bCopyTxId"
@@ -96,7 +99,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_send_address"
-            android:textAlignment="textStart" />
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:id="@+id/tvTxAddress"

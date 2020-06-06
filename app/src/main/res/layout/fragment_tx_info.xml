@@ -55,6 +55,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:selectAllOnFocus="true"
+                android:textColor="#FFFFFF"
                 android:textIsSelectable="true"
                 tools:text="2017-10-09 12:44:13 +0200" />
         </LinearLayout>
@@ -180,7 +181,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_account" />
+                    android:text="@string/tx_account"
+                    android:textColor="#FFFFFF" />
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -224,7 +226,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8sp"
-                    android:text="@string/tx_notes" />
+                    android:text="@string/tx_notes"
+                    android:textColor="#FFFFFF" />
 
                 <android.support.design.widget.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
@@ -249,7 +252,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_destination" />
+                    android:text="@string/tx_destination"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvDestination"
@@ -267,7 +271,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_paymentId" />
+                    android:text="@string/tx_paymentId"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxPaymentId"
@@ -285,7 +290,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_id" />
+                    android:text="@string/tx_id"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxId"
@@ -303,7 +309,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_key" />
+                    android:text="@string/tx_key"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxKey"
@@ -321,7 +328,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_blockheight" />
+                    android:text="@string/tx_blockheight"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxBlockheight"
@@ -339,7 +347,8 @@
                     android:layout_gravity="top"
                     android:gravity="end"
                     android:padding="8dp"
-                    android:text="@string/tx_transfers" />
+                    android:text="@string/tx_transfers"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxTransfers"

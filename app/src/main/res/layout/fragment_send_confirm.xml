@@ -14,16 +14,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_send_address"
-            android:textAlignment="textStart" />
+            android:textAlignment="textStart"
+            android:textColor="@color/moneroWhite" />
 
         <TextView
             android:id="@+id/tvTxAddress"
             style="@style/MoneroText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
             tools:text="4AdkPJoxn7JCvAby9szgnt93MSEwdnxdhaASxbTBm6x5dCwmsDep2UYN4FhStDn5i11nsJbpU7oj59ahg8gXb1Mg3viqCuk" />
 
         <LinearLayout
@@ -141,7 +143,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/send_total_label"
-                    android:textAlignment="textStart" />
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/tvTxTotal"
@@ -150,6 +153,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF"
                     tools:text="143.014817000000" />
             </LinearLayout>
 
