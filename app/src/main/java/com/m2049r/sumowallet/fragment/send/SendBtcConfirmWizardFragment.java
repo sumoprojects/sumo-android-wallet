@@ -438,10 +438,6 @@ public class SendBtcConfirmWizardFragment extends SendWizardFragment implements 
             }
         });
 
-        if (Helper.preventScreenshot()) {
-            passwordDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
-        }
-
         passwordDialog.show();
     }
 

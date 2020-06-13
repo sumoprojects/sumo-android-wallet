@@ -518,10 +518,6 @@ public class NodeFragment extends Fragment
                 }
             });
 
-            if (Helper.preventScreenshot()) {
-                editDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
-            }
-
             etNodePass.getEditText().setOnEditorActionListener(new TextView.OnEditorActionListener() {
                 public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                     if (actionId == EditorInfo.IME_ACTION_DONE) {

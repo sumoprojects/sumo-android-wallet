@@ -710,6 +710,8 @@ public class GenerateFragment extends Fragment {
             }
         });
 
+        //Prevents from taking screenshot on returned seed words from wallet generation.
+        //This includes Wallet Creation & Wallet Show Secrets
         if (Helper.preventScreenshot()) {
             ledgerDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         }
