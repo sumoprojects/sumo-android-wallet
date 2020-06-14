@@ -61,14 +61,30 @@
             android:layout_height="1dp"
             android:background="@android:color/white"/>
 
-        <TextView
-            style="@style/MoneroLabel.Heading"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:text="Mnemonic Seed"
-            android:textColor="@color/moneroWhite" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/header_top">
+
+            <TextView
+                style="@style/MoneroLabel.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Mnemonic Seed"
+                android:textColor="@color/moneroWhite" />
+
+            <ImageButton
+                android:id="@+id/bCopyMnemonic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="80dp"
+                android:background="?android:selectableItemBackground"
+                android:clickable="false"
+                android:src="@drawable/ic_content_nocopy_black_24dp"
+                android:tint="@color/moneroWhite" />
+        </FrameLayout>
 
         <LinearLayout
             android:id="@+id/llMnemonic"

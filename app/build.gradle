@@ -7,7 +7,7 @@ android {
         applicationId "com.m2049r.sumowallet"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 10005
+        versionCode 100051
         versionName 'The Great Wall'
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
