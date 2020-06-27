@@ -32,6 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true"
                     tools:text="+ 1,092.00229" />
 
@@ -200,6 +201,7 @@
                         android:paddingTop="8dp"
                         android:paddingEnd="8dp"
                         android:selectAllOnFocus="true"
+                        android:textColor="#FFFFFF"
                         android:textIsSelectable="true"
                         tools:text="(0,1)" />
 
@@ -214,6 +216,7 @@
                         android:paddingEnd="8dp"
                         android:paddingBottom="8dp"
                         android:selectAllOnFocus="true"
+                        android:textColor="#FFFFFF"
                         android:textIsSelectable="true"
                         tools:text="4BKjy1uVRTPiz4pHyaXXawb82XpzLiowSDd8rEQJGqvN6AD6kWosLQ6VJXW9sghopxXgQSh1RTd54JdvvCRsXiF41xvfeW5" />
                 </RelativeLayout>
@@ -241,7 +244,8 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/moneroGray"
                         android:hint="@string/tx_notes_hint"
-                        android:inputType="textMultiLine" />
+                        android:inputType="textMultiLine"
+                        android:textColor="#FFFFFF" />
                 </android.support.design.widget.TextInputLayout>
             </TableRow>
 
@@ -261,6 +265,7 @@
                     android:gravity="start"
                     android:padding="8dp"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true" />
             </TableRow>
 
@@ -280,6 +285,7 @@
                     android:gravity="start"
                     android:padding="8dp"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true" />
             </TableRow>
 
@@ -299,6 +305,7 @@
                     android:gravity="start"
                     android:padding="8dp"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true" />
             </TableRow>
 
@@ -318,6 +325,7 @@
                     android:gravity="start"
                     android:padding="8dp"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true" />
             </TableRow>
 
@@ -337,6 +345,7 @@
                     android:gravity="start"
                     android:padding="8dp"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true" />
             </TableRow>
 
@@ -356,6 +365,7 @@
                     android:gravity="start"
                     android:padding="8dp"
                     android:selectAllOnFocus="true"
+                    android:textColor="#FFFFFF"
                     android:textIsSelectable="true" />
 
             </TableRow>
