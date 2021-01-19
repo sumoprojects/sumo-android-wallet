@@ -7,13 +7,13 @@ android {
         applicationId "com.m2049r.sumowallet"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 10003
-        versionName "Eureka"
+        versionCode 10005
+        versionName "Samurai"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                cppFlags "-std=c++11"
+                cppFlags "-std=c++17"
                 arguments '-DANDROID_STL=c++_shared'
             }
         }
