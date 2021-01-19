@@ -611,10 +611,6 @@ public class Helper {
             }
         });
 
-        if (Helper.preventScreenshot()) {
-            openDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
-        }
-
         Helper.showKeyboard(openDialog);
         openDialog.show();
     }

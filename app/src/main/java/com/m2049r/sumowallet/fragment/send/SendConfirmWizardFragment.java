@@ -317,10 +317,6 @@ public class SendConfirmWizardFragment extends SendWizardFragment implements Sen
             }
         });
 
-        if (Helper.preventScreenshot()) {
-            passwordDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
-        }
-
         passwordDialog.show();
     }
 

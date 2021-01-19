@@ -137,8 +137,8 @@
         <android.support.v7.widget.RecyclerView
             android:id="@+id/list"
             android:layout_width="match_parent"
-            android:layout_height="520dp"
-            android:clipToPadding="false"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
             android:paddingBottom="80dp"
             app:layoutManager="LinearLayoutManager"
             tools:listitem="@layout/item_transaction" />

@@ -78,6 +78,7 @@ public class GenerateReviewFragment extends Fragment {
     private TextView tvWalletViewKey;
     private TextView tvWalletSpendKey;
     private ImageButton bCopyAddress;
+    private ImageButton bCopyMnemonic;
     private LinearLayout llAdvancedInfo;
     private LinearLayout llPassword;
     private LinearLayout llMnemonic;
@@ -104,6 +105,7 @@ public class GenerateReviewFragment extends Fragment {
         tvWalletMnemonic = view.findViewById(R.id.tvWalletMnemonic);
         tvWalletHeight = view.findViewById(R.id.tvWalletHeight);
         bCopyAddress = view.findViewById(R.id.bCopyAddress);
+        bCopyMnemonic = view.findViewById(R.id.bCopyMnemonic);
         bAdvancedInfo = view.findViewById(R.id.bAdvancedInfo);
         llAdvancedInfo = view.findViewById(R.id.llAdvancedInfo);
         llPassword = view.findViewById(R.id.llPassword);
@@ -136,7 +138,14 @@ public class GenerateReviewFragment extends Fragment {
                 copyAddress();
             }
         });
+        bCopyMnemonic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                copyMnemonic();
+            }
+        });
         bCopyAddress.setClickable(false);
+        bCopyMnemonic.setClickable(false);
         view.findViewById(R.id.bAdvancedInfo).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -165,6 +174,11 @@ public class GenerateReviewFragment extends Fragment {
     void copyAddress() {
         Helper.clipBoardCopy(getActivity(), getString(R.string.label_copy_address), tvWalletAddress.getText().toString());
         Toast.makeText(getActivity(), getString(R.string.message_copy_address), Toast.LENGTH_SHORT).show();
+    }
+
+    void copyMnemonic(){
+        Helper.clipBoardCopy(getActivity(), "Mnemonic Seed", tvWalletMnemonic.getText().toString());
+        Toast.makeText(getActivity(), "Mnemonic Seed copied to clipboard!", Toast.LENGTH_SHORT).show();
     }
 
     void nocopy() {
@@ -288,7 +302,9 @@ public class GenerateReviewFragment extends Fragment {
                 }
                 if (showAdvanced) bAdvancedInfo.setVisibility(View.VISIBLE);
                 bCopyAddress.setClickable(true);
+                bCopyMnemonic.setClickable(true);
                 bCopyAddress.setImageResource(R.drawable.ic_content_copy_black_24dp);
+                bCopyMnemonic.setImageResource(R.drawable.ic_content_copy_black_24dp);
                 activityCallback.setTitle(name, getString(R.string.details_title));
                 activityCallback.setToolbarButton(
                         GenerateReviewFragment.VIEW_TYPE_ACCEPT.equals(type) ? Toolbar.BUTTON_NONE : Toolbar.BUTTON_BACK);
@@ -630,13 +646,12 @@ public class GenerateReviewFragment extends Fragment {
                 return false;
             }
         });
-
         if (Helper.preventScreenshot()) {
             openDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         }
-
         return openDialog;
     }
+
 
     private boolean isKeyValid(String key) {
         return (key != null) && (key.length() == 64)
