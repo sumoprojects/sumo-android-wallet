@@ -74,8 +74,20 @@ public class RestoreHeight {
         blockheight.put("2019-11", 344000L);
         blockheight.put("2019-12", 355000L);
         blockheight.put("2020-01", 366000L);
+        blockheight.put("2020-02", 377000L);
+        blockheight.put("2020-03", 387500L);
+        blockheight.put("2020-04", 398500L);
+        blockheight.put("2020-05", 409300L);
+        blockheight.put("2020-06", 420400L);
+        blockheight.put("2020-07", 431100L);
+        blockheight.put("2020-08", 442300L);
+        blockheight.put("2020-09", 453400L);
+        blockheight.put("2020-10", 464150L);
+        blockheight.put("2020-11", 475270L);
+        blockheight.put("2020-12", 486050L);
+        blockheight.put("2021-01", 497200L);        
     }
-    long latestHeight = 366000L;
+    long latestHeight = 497200L;
 
     public long getHeight(final Date date) {
         Timber.d("Restore Height date %s", date);
